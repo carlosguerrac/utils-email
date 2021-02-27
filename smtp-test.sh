@@ -191,24 +191,14 @@ echo "$CM DATA" >>transaction$LOG_EXT.log &&
 echo "DATA"
 sleep $WAIT_TIME
 
-echo "$CM From: <$SENDER_EMAIL>
-$CM To: <$RECIPIENT_EMAIL>
-$CM Date: $DATE
+echo "$CM From:    <$SENDER_EMAIL>
+$CM To:      <$RECIPIENT_EMAIL>
+$CM Date:    $DATE
 $CM Subject: smtp-test email
 $CM
 $CM This is a test mail sent from the smtp-test.
 $CM To find out more about this script visit http:// www.tinned-software.net/scripts_smtp-test/
 $CM
-$CM Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut
-$CM mauris ut metus posuere ullamcorper et sed tellus. Morbi eleifend vel enim
-$CM vitae volutpat. Mauris tincidunt adipiscing lobortis. Quisque sed
-$CM adipiscing tortor, nec feugiat augue. Sed mi orci, scelerisque at sem
-$CM vitae, eleifend vulputate dolor. Fusce hendrerit risus at quam aliquam, sit
-$CM amet rutrum justo placerat. Etiam a magna et augue ullamcorper aliquam
-$CM accumsan sit amet est. Fusce facilisis pulvinar orci, in congue quam
-$CM venenatis ut. Proin ullamcorper dolor convallis, pulvinar dui ac, venenatis
-$CM nisi. Sed vitae nisi vitae nulla luctus porttitor. Sed tincidunt porta mi,
-$CM eget rhoncus dui aliquam.
 $CM .
 $CM " >>transaction$LOG_EXT.log
 echo "From: <$SENDER_EMAIL>
@@ -219,16 +209,6 @@ Subject: smtp-test email
 This is a test mail sent from the smtp-test.
 To find out more about this script visit http://www.tinned-software.net/scripts_smtp-test/
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut
-mauris ut metus posuere ullamcorper et sed tellus. Morbi eleifend vel enim
-vitae volutpat. Mauris tincidunt adipiscing lobortis. Quisque sed
-adipiscing tortor, nec feugiat augue. Sed mi orci, scelerisque at sem
-vitae, eleifend vulputate dolor. Fusce hendrerit risus at quam aliquam, sit
-amet rutrum justo placerat. Etiam a magna et augue ullamcorper aliquam
-accumsan sit amet est. Fusce facilisis pulvinar orci, in congue quam
-venenatis ut. Proin ullamcorper dolor convallis, pulvinar dui ac, venenatis
-nisi. Sed vitae nisi vitae nulla luctus porttitor. Sed tincidunt porta mi,
-eget rhoncus dui aliquam.
 ."
 sleep $WAIT_TIME
 
